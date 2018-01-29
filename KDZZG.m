@@ -1,9 +1,8 @@
 function [Pk1,Pk2,Dist] = KDZZG(Pog1,Vg1,Pog2,Vg2,Print)
-%Kürzeste Distanz Zwischen Zwei Geraden
+%Kï¿½rzeste Distanz Zwischen Zwei Geraden
 %   Errechnet aus den beidenen gegebenen Geraden 1&2 (Fusspunkt Pog1/Pog2 und
-%   Richtungsvektor Vg1/Vg2) die beiden am nächten beieinander liegenden
+%   Richtungsvektor Vg1/Vg2) die beiden am nï¿½chten beieinander liegenden
 %   Punkte (Pk1 (auf G1) und Pk2 (auf G2)) und die Distanz (Dist) dazwischen
-
 
 %normale errechen
 N=cross(Vg1,Vg2);
@@ -36,10 +35,9 @@ end
 
 % if needed print the resuts
 if Print == true
-fprintf('%f = ist der Punkt auf der Gerade1 am nächten bei der Gerade 2 \n',Pk1);
-fprintf('%f = ist der Punkt auf der Gerade2 am nächten bei der Gerade 1 \n',Pk2);
+fprintf('%f = ist der Punkt auf der Gerade1 am nï¿½chten bei der Gerade 2 \n',Pk1);
+fprintf('%f = ist der Punkt auf der Gerade2 am nï¿½chten bei der Gerade 1 \n',Pk2);
 fprintf('%f = Ist der Betrag der Distanz zwischen den beiden Punkten \n',Dist);
 end
 
 end
-
