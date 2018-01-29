@@ -2,7 +2,7 @@ function [ Vr ] = RZGDP(Pog,Vg,Pn,Print)
 %Rechtwinklige Zu Gereade Durch Punkt
 %   Gibt den Richtungsvektor Vr aus, welcher rechtwinklig auf die Gerade
 %   (Fusspunkit Pog und Richtungsvektor Vg) steht und durch den gegebenen
-%   Punkt (Pn) verläuft.
+%   Punkt (Pn) verlï¿½uft.
 
 %berechnung
 
@@ -21,4 +21,3 @@ fprintf('ans = Richtungsvektor der Rechtwinkligen zur Gerade durch den Punkt %f 
 end
 
 end
-
